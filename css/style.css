@@ -50,7 +50,12 @@ a:hover {
 
 .img-banner {
 	max-width: 3rem;
-	margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+	margin: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.img-banner-no-margin {
+	max-width: 3rem;
+	margin-bottom: 0.5rem;
 }
 
 .img-logo {
@@ -81,4 +86,12 @@ section {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+h6 {
+	font-weight: 600;
+}
+
+.form-control {
+	margin: 0.5rem;
 }
