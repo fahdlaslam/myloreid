@@ -1,5 +1,6 @@
 body {
 	font-family: 'Lato', sans-serif;
+	/* height: 100%; */
 }
 
 h1 {
@@ -22,6 +23,8 @@ audio {
 
 .container {
 	max-width: 992px;
+	/* position: relative; */
+	/* min-height: 100%; */
 }
 
 .navbar-custom {
@@ -41,6 +44,14 @@ a:hover {
 
 .footer {
 	margin: 1rem 0 1rem 0;
+	/* background-color: var(--mylo-grey-light); */
+	/* position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-top: -150px;
+	height: 150px; */
+	/* clear:both; */
+	/* padding-top:20px; */
 }
 
 .smaller {
