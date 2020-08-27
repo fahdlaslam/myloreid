@@ -26,12 +26,21 @@ body {
 .carousel-item {
   height: 32rem;
 }
+
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+
+
+  height:auto;
+}
+
+.carousel-inner img {
+  margin: auto;
+  min-width: 100%;
+  height:auto;
 }
 
 
@@ -105,6 +114,8 @@ body {
   padding:20px;
   border-radius: 10px;
   list-style-type: none;
+
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .playlist-inner {
@@ -172,4 +183,17 @@ body {
 
 .audio-divider {
   margin: 0rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+.btn {
+  background-color: #318a8f;
+  border: none;
+}
+
+.navbar-right-link {
+  font-size: 1.5rem;
+}
+
+.navbar-right-link a:hover {
+  color:lightblue;
 }
