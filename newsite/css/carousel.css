@@ -248,3 +248,10 @@ audio {
 .form-control {
   margin:0.5rem 0 0.5rem 0;
 }
+
+.img-project {
+  margin: 10px 0px 10px 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+}
