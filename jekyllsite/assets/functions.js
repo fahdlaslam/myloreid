@@ -79,13 +79,6 @@ Amplitude.init({
 			"album": "Audio Reels",
 			"url": "./audio/cartoon.mp3",
 			"cover_art_url": "./img/avatar3.png"
-		},
-		{
-			"name": "Additional Commercial Reel",
-			"artist": "Mylo Reid",
-			"album": "Audio Reels",
-			"url": "./audio/explainer.mp3",
-			"cover_art_url": "./img/avatar2.jpg"
 		}
 	]
 });
