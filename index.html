@@ -40,7 +40,7 @@
       <header>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Mylo Reid</a>
+        <a class="navbar-brand" href="index.html">Mylo Reid</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -50,9 +50,9 @@
                 
                     
                         
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
                         
                     
                         
@@ -128,7 +128,7 @@
     </a>
   </div>
 
-<div class="container marketing">
+<div class="container marketing" style="width:100%">
 
     <!-- START THE FEATURETTES -->
 
@@ -142,8 +142,12 @@
                 <!-- Left Side Player -->
                 <div id="amplitude-left">
                     <img data-amplitude-song-info="cover_art_url" />
+                </div>
+                <!-- End Left Side Player -->
 
-                    <div id="player-left-bottom">
+                <!-- Right Side Player -->
+                <div id="amplitude-right">
+                    <div id="player-left-bottom" style="padding:2rem 1rem 2rem 1rem; background-color: #F1F1F1;">
                         <div id="time-container">
                             <span class="current-time">
                                 <span class="amplitude-current-minutes"></span>:<span class="amplitude-current-seconds"></span>
@@ -191,13 +195,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- End Left Side Player -->
-
-                <!-- Right Side Player -->
-                <div id="amplitude-right">
-                    
-                    
                     <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="0">
                         <div class="song-now-playing-icon-container">
                             <div class="play-button-container">
@@ -249,14 +246,16 @@
                         </a>
                         <span class="song-duration">0:31</span>
                     </div>
+                    
+                    </div>
                 </div>
                 <!-- End Right Side Player -->
             </div>
             <!-- End Amplitude Player -->
         </div>
-    </div>
 
-        <hr class="featurette-divider" />
+
+        <hr class="featurette-divider-blank" />
 
         <div class="row featurette align-items-center">
             <div class="col-md-7 order-md-2">
@@ -275,14 +274,13 @@
             </div>
         </div>
 
-        <hr class="featurette-divider" />
+        <hr class="featurette-divider-blank" />
 
     </div>
 
 
       <footer class="container">
-  <p class="float-right"><a href="#">Back to top</a></p>
-  <p>&copy; 2020 Mylo Reid</p>
+  <p class="text-center">&copy; 2020 Mylo Reid</p>
 
   <!-- JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

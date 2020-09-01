@@ -142,17 +142,22 @@ h2 {
   background-position: center top;
   background-size: 100% auto;
   background-color: darkslategray;
-  height: 32rem;
+  height: 24rem;
 }
 
-@media (max-width: 88em) {
+.featurette-divider-blank {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  border: none;
+}
+
+@media (max-width: 64em) {
   /* Bump up size of carousel content */
   .carousel-item {
   background-repeat: repeat;
   background-position: center top;
   background-size: auto 100%;
   background-color: darkslategray;
-  height: 32rem;
+  height: 24rem;
   }
 
   
@@ -161,8 +166,8 @@ h2 {
 @media (min-width: 74em) {
   /* Bump up size of carousel content */
   .carousel-caption h1 {
-    margin-bottom: 10rem;
-    font-size: 4rem; 
+    margin-bottom: 5.5rem;
+    font-size: 3rem; 
   }
 
   
@@ -193,6 +198,14 @@ footer a {
   border: none;
   margin: 10px;
   padding: 1rem 3rem 1rem 3rem;
+}
+
+.form-control {
+  margin:0.5rem 0 0.5rem 0;
+}
+
+.form-control {
+
 }
 
 .navbar-right-link {
@@ -278,9 +291,7 @@ audio {
   background:#888;
 }
 
-.form-control {
-  margin:0.5rem 0 0.5rem 0;
-}
+
 
 .img-project {
   margin: 10px 0px 10px 0px;
