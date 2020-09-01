@@ -118,6 +118,7 @@ body {
 }
 
 h1 {
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -134,7 +135,7 @@ h2 {
   height: 32rem;
 }
 
-@media (max-width: 56em) {
+@media (max-width: 88em) {
   /* Bump up size of carousel content */
   .carousel-item {
   background-repeat: repeat;
