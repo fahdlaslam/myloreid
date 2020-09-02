@@ -82,3 +82,5 @@ Amplitude.init({
 		}
 	]
 });
+
+Amplitude.pause();

@@ -77,6 +77,7 @@
             </ul>
 
             <span class="navbar-right-link"><a href="https://twitter.com/VoMylo" target="_blank"><i class="fab fa-twitter navbar-right-link"></i></a></span>
+            <span class="navbar-right-link"><a href="contact.html"><i class="fas fa-envelope navbar-right-link"></i></a></span>
         </div>
     </nav>
 
@@ -87,44 +88,50 @@
 </header>
 
       <div class="container marketing">
-
-    <!-- START THE FEATURETTES -->
-
-    <div class="row featurette align-items-center" style="padding-top: 4rem">
-      <div class="col-md-8 offset-md-2 contact-form">
-        <h1 class="featurette-heading" style="padding-bottom:1rem">Contact Me</h1>
-          <p class="lead">Get in touch with me using the form below.</p>
-          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-            <div class="row">
-              <div class="col">
-                <input type="text" id="name" name="name" class="form-control" placeholder="Name" />
-              </div>
-              <div class="col">
-                <input type="text" id="email" name="email" class="form-control" placeholder="Email" />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" /></div>
-              </div>
-              <div class="col">
-                <div class="row"><textarea type="text" id="message" name="message" rows="6" class="form-control md-textarea" placeholder="Message"></textarea></div>
-              </div>
-            <div class="row">
-              <div class="col d-flex justify-content-center">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-              </div>
-            </div>
-          </form>
-      </div>
+  <hr class="featurette-divider-blank" />
+  <div class="row featurette align-items-center">
+    <div class="col-md-8 offset-md-2 contact-form">
+      <h1 class="featurette-heading" style="padding-bottom:1rem">Contact Me</h1>
+      <p class="lead">Get in touch with me using the form below.</p>
     </div>
+  </div>
+</div>
 
-    <hr class="featurette-divider-blank" />
+<div class="container marketing">
+  <div class="row featurette align-items-center">
+    <div class="col-md-8 offset-md-2 contact-form">
+      <form id="contact-form" name="contact-form" action="https://formspree.io/xaypgkop" method="POST"> 
+        <div class="row">
+          <div class="col">
+            <input type="text" id="name" name="name" class="form-control" placeholder="Name" />
+          </div>
+          <div class="col">
+            <input type="text" id="email" name="email" class="form-control" placeholder="Email" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" /></div>
+        </div>
+        <div class="col">
+          <div class="row"><textarea type="text" id="message" name="message" rows="6" class="textarea form-control" placeholder="Message"></textarea></div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <hr class="featurette-divider-blank" />
 </div>
 
 
       <footer class="container">
+  <p class="text-center"><a href="mailto:&#109;&#121;&#108;&#111;&#064;&#109;&#121;&#108;&#111;&#114;&#101;&#105;&#100;&#046;&#099;&#111;&#109;">&#109;&#121;&#108;&#111;&#064;&#109;&#121;&#108;&#111;&#114;&#101;&#105;&#100;&#046;&#099;&#111;&#109;</a></p>
   <p class="text-center">&copy; 2020 Mylo Reid</p>
+  <p class="text-center"><a href="#" class="test">Back to top</a></p>
 
   <!-- JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -132,6 +139,7 @@
   <script src="assets/audioplayer.js"></script>
   <script type="text/javascript" src="assets/amplitude.min.js"></script>
   <script type="text/javascript" src="assets/functions.js"></script>
+  <script type="text/javascript" src="assets/custom.js"></script>
   <script src="https://kit.fontawesome.com/e28242aa73.js" crossorigin="anonymous"></script>
 </footer>
     </main>
