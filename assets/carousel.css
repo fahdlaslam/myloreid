@@ -375,7 +375,8 @@ audio {
 .column-item {
   vertical-align: top;
   horizontal-align: center;
-  width: calc(50% - 8px);
+  /*width: calc(50% - 8px);*/
+  width: calc(100% - 8px);
   margin: 8px;
 
   /*flex-basis: 50%;*/
