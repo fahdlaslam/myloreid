@@ -106,6 +106,33 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.banner-email a {
+  color:  white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.banner-email a:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+a {
+  transition: 0.2s;
+}
+
+a:hover {
+  transition: 0.2s;
+}
+
+.banner-img {
+  transition: 0.2s;
+}
+
+.banner-img:hover {
+  transition: 0.2s;
+  opacity: 0.8;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #e7dfd2;
@@ -333,6 +360,99 @@ audio {
 
 .featurette-divider {
   margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+
+/* PROJECTS MYLO
+*/
+.column {
+  margin: auto;
+  display:  flex;
+  flex-wrap:  wrap;
+  justify-content: center;
+}
+
+.column-item {
+  vertical-align: top;
+  horizontal-align: center;
+  /*width: calc(50% - 8px);*/
+  margin: 8px;
+
+  /*flex-basis: 50%;*/
+  text-align: center;
+
+
+  /*display: inline-block;*/
+  /*max-height: 500px;*/
+  max-width: calc(100% - 1.2rem);
+  /*margin-right: 1rem;*/
+  margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 440px) {
+  .columns {
+    flex-direction: row;
+  }
+
+  .columns .column-item {
+    width: calc(100% - 16px);
+    -ms-flex-basis: calc(100% - 16px);
+        -ms-flex-preferred-size: calc(100% - 16px);
+        flex-basis: calc(100% - 16px);
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+}
+
+@media only screen and (min-width: 880px) {
+  .columns .column-item {
+    width: calc((100% / 3) - 16px);
+    -ms-flex-basis: calc((100% / 2) - 16px);
+        -ms-flex-preferred-size: calc((100% / 2) - 16px);
+        flex-basis: calc((100% / 2) - 16px);
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+
+}
+
+.column-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.column-item-bg {
+  border-radius: 6px;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  padding-bottom: 60%;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  box-shadow: 0px 6px 12px -5px rgba(50, 50, 50, 0.5);
+  -webkit-transition: background 0.35s ease-in-out;
+  -moz-transition: background 0.35s ease-in-out;
+  -o-transition: background 0.35s ease-in-out;
+  transition: background 0.35s ease-in-out;
+  transition: 0.3s;
+}
+
+.column-item-bg:hover {
+  opacity: 0.6;
+  /*-webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;*/
+  /*transition: transform 0.2s, -webkit-transform 0.2s;*/
+  transition: 0.3s;
+}
+
+.column-item h2 {
+  padding-top: 1rem;
+  font-weight: 600;
 }
 
 
