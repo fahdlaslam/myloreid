@@ -382,7 +382,7 @@ audio {
   text-align: center;
 
 
-  /*display: inline-block;*/
+  display: inline-block;
   /*max-height: 500px;*/
   max-width: calc(100% - 1.2rem);
   /*margin-right: 1rem;*/
