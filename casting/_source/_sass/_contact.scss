@@ -14,10 +14,11 @@ input[type=text], textarea {
 }
 
 .form-control:focus {
-  background-color: #ffd969;
+  background-color: rgba(#C8C2AA, .35);
 }
 
 input[type=text]:hover, textarea:hover {
   
-  background-color: #ffd969;
+  background-color: rgba(#C8C2AA, .35);
+  //#ffd969
 }

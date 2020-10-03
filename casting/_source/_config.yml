@@ -32,7 +32,7 @@ github_username:  puppetsbunker
 links:
   'Home': 'index.html'
   'Casting': 'casting.html'
-  'Projects': 'projects.html'
+  # 'Projects': 'projects.html'
   'Contact': 'contact.html'
 
 # Build settings

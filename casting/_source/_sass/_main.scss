@@ -189,6 +189,23 @@ img {
   transition: 0.2s;
 }
 
+.button-bottom {
+  text-transform: uppercase;
+  font-weight: 800;
+  border-radius: 50px;
+  background-color: rgba(#4D493E, .35);
+  color: white;
+  font-size: 0.8rem;
+  padding: 1em 2rem;
+  // margin: 1.2rem 0 0 0;
+  transition: 0.2s;
+}
+
+.button-bottom:hover {
+  background-color: grey;
+  transition: 0.2s;
+}
+
 strong {
   font-weight: 800;
 }
@@ -283,7 +300,8 @@ strong {
 
 a {
     transition: 0.3s;
-      color:#ffffff;
+    // color:#ffffff;
+    color:#000000;
 }
 
   a:hover, a:active, a:focus {
@@ -326,5 +344,10 @@ a {
   }
 
   .active {
-    font-weight: 500;
+    font-weight: 600;
+  }
+
+  .img-casting {
+    margin:2rem 0 1rem 0;
+    padding: 0 2rem;
   }
