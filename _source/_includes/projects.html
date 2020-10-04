@@ -1,0 +1,31 @@
+<div class="container marketing">
+
+    <!-- START THE FEATURETTES -->
+
+    <div class="row featurette align-items-center" style="padding-top: 4rem">
+        <div class="col-md text-center">
+            <h1 class="featurette-heading" style="padding-bottom:1rem">Recent Projects</h1>
+        </div>
+    </div>
+
+    <div class="row featurette align-items-center columns">
+        <div class="row">
+          {% for post in site.posts %}
+            <div class="column-item">
+                <!-- <a href="{{ post.link }}"><img src="{{ post.image }}" class="img-fluid img-project column-item-image"></a> -->
+
+                <a href="{{ post.link }}">
+                    <div class="column-item-bg" style="background-image: url('{{ post.image }}')"></div>
+                </a>
+                <h2>{{ post.role }}</h2>
+                <h3>{{ post.title }}</h3>
+                <p>{{ post.category }}{%if post.publisher %} by {{ post.publisher }} {% endif %}</p>
+            </div>
+          {% endfor %}
+        </div>
+    </div>
+
+  <br><hr class="small">
+
+</div>
+

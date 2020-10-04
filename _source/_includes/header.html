@@ -1,0 +1,36 @@
+<header>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">Mylo Reid VO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto"> 
+                {% if site.links %}
+                    {% for link in site.links %}
+                        {% if page.title == link[0] %}
+                        <li class="nav-item active">
+                            <a class="nav-link" href="{{ link[1] }}">{{ link[0] }}</a>
+                        </li>
+                        {% else %}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ link[1] }}">{{ link[0] }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </ul>
+
+            <span class="navbar-right-link"><a href="https://twitter.com/VoMylo" target="_blank"><i class="fab fa-twitter navbar-right-link"></i></a></span>
+            <span class="navbar-right-link"><a href="contact.html"><i class="fas fa-envelope navbar-right-link"></i></a></span>
+        </div>
+    </nav>
+
+    <div style="padding:2.5rem 0 2rem 0; background-color:#2C898F; ">
+        <a href="index.html"><img src="../img/mylo-logo-white-lwr.png" class="img-fluid mx-auto d-block banner-img" style="height: 120px"></a>
+        <p class="text-center banner-email"><a href="mailto:&#109;&#121;&#108;&#111;&#064;&#109;&#121;&#108;&#111;&#114;&#101;&#105;&#100;&#046;&#099;&#111;&#109;">&#109;&#121;&#108;&#111;&#064;&#109;&#121;&#108;&#111;&#114;&#101;&#105;&#100;&#046;&#099;&#111;&#109;</a></p>
+    </div>
+
+</header>
