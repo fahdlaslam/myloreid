@@ -63,6 +63,148 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 2809,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAALYGAAAAAAAAtwYAAAAAAAAAAAAAtwYAAAAAAAC5BgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtgYAAAAAAAC2BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"paste",
+					null,
+					"AQAAALkGAAAAAAAA2wYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuQYAAAAAAAC5BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "http:"
+					},
+					"BgAAAM0GAAAAAAAAzgYAAAAAAAAAAAAAzgYAAAAAAADOBgAAAAAAAA0AAABwcm9qZWN0cy5odG1szgYAAAAAAADPBgAAAAAAAAAAAADPBgAAAAAAANAGAAAAAAAAAAAAANAGAAAAAAAA0QYAAAAAAAAAAAAA0QYAAAAAAADSBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2gYAAAAAAADNBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"left_delete",
+					null,
+					"AQAAANEGAAAAAAAA0QYAAAAAAAABAAAAOg",
+					"AQAAAAAAAAABAAAA0gYAAAAAAADSBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": "s://www.puppet"
+					},
+					"DgAAANEGAAAAAAAA0gYAAAAAAAAAAAAA0gYAAAAAAADTBgAAAAAAAAAAAADTBgAAAAAAANQGAAAAAAAAAAAAANQGAAAAAAAA1QYAAAAAAAAAAAAA1QYAAAAAAADWBgAAAAAAAAAAAADWBgAAAAAAANcGAAAAAAAAAAAAANcGAAAAAAAA2AYAAAAAAAAAAAAA2AYAAAAAAADZBgAAAAAAAAAAAADZBgAAAAAAANoGAAAAAAAAAAAAANoGAAAAAAAA2wYAAAAAAAAAAAAA2wYAAAAAAADcBgAAAAAAAAAAAADcBgAAAAAAAN0GAAAAAAAAAAAAAN0GAAAAAAAA3gYAAAAAAAAAAAAA3gYAAAAAAADfBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0QYAAAAAAADRBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "sbunker.com/"
+					},
+					"DAAAAN8GAAAAAAAA4AYAAAAAAAAAAAAA4AYAAAAAAADhBgAAAAAAAAAAAADhBgAAAAAAAOIGAAAAAAAAAAAAAOIGAAAAAAAA4wYAAAAAAAAAAAAA4wYAAAAAAADkBgAAAAAAAAAAAADkBgAAAAAAAOUGAAAAAAAAAAAAAOUGAAAAAAAA5gYAAAAAAAAAAAAA5gYAAAAAAADnBgAAAAAAAAAAAADnBgAAAAAAAOgGAAAAAAAAAAAAAOgGAAAAAAAA6QYAAAAAAAAAAAAA6QYAAAAAAADqBgAAAAAAAAAAAADqBgAAAAAAAOsGAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3wYAAAAAAADfBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "Puppets"
+					},
+					"CAAAALoGAAAAAAAAuwYAAAAAAAAAAAAAuwYAAAAAAAC7BgAAAAAAAA8AAABSZWNlbnQgUHJvamVjdHO7BgAAAAAAALwGAAAAAAAAAAAAALwGAAAAAAAAvQYAAAAAAAAAAAAAvQYAAAAAAAC+BgAAAAAAAAAAAAC+BgAAAAAAAL8GAAAAAAAAAAAAAL8GAAAAAAAAwAYAAAAAAAAAAAAAwAYAAAAAAADBBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAugYAAAAAAADJBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"insert",
+					{
+						"characters": " BUnker"
+					},
+					"BwAAAMEGAAAAAAAAwgYAAAAAAAAAAAAAwgYAAAAAAADDBgAAAAAAAAAAAADDBgAAAAAAAMQGAAAAAAAAAAAAAMQGAAAAAAAAxQYAAAAAAAAAAAAAxQYAAAAAAADGBgAAAAAAAAAAAADGBgAAAAAAAMcGAAAAAAAAAAAAAMcGAAAAAAAAyAYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwQYAAAAAAADBBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					5,
+					"left_delete",
+					null,
+					"BQAAAMcGAAAAAAAAxwYAAAAAAAABAAAAcsYGAAAAAAAAxgYAAAAAAAABAAAAZcUGAAAAAAAAxQYAAAAAAAABAAAAa8QGAAAAAAAAxAYAAAAAAAABAAAAbsMGAAAAAAAAwwYAAAAAAAABAAAAVQ",
+					"AQAAAAAAAAABAAAAyAYAAAAAAADIBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "unker"
+					},
+					"BQAAAMMGAAAAAAAAxAYAAAAAAAAAAAAAxAYAAAAAAADFBgAAAAAAAAAAAADFBgAAAAAAAMYGAAAAAAAAAAAAAMYGAAAAAAAAxwYAAAAAAAAAAAAAxwYAAAAAAADIBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwwYAAAAAAADDBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					31,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAAMAGAAAAAAAAwQYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwAYAAAAAAADABgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMAGAAAAAAAAwAYAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAAwQYAAAAAAADBBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"insert",
+					{
+						"characters": "'"
+					},
+					"AQAAAMAGAAAAAAAAwQYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwAYAAAAAAADABgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMAGAAAAAAAAwAYAAAAAAAABAAAAJw",
+					"AQAAAAAAAAABAAAAwQYAAAAAAADBBgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -211,6 +353,38 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2809,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1728,
+								1728
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
