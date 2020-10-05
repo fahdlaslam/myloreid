@@ -32,7 +32,7 @@ links:
   'Home': 'index.html'
   'About': 'about.html'
   'Recent Projects': 'projects.html'
-  'Puppets Bunker': 'https://www.puppetsbunker.com/'
+  'Puppets Bunker': 'http://puppetsbunker.com'
   'Contact': 'contact.html'
 
 defaults:
