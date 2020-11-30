@@ -60,6 +60,13 @@ Amplitude.init({
 	continue_next: false,
 	"songs": [
 		{
+			"name": "Video Game Reel 2020",
+			"artist": "Mylo Reid",
+			"album": "Audio Reels",
+			"url": "./audio/game2020.mp3",
+			"cover_art_url": "./img/avatar2.jpg"
+		},
+		{
 			"name": "Commercial Reel",
 			"artist": "Mylo Reid",
 			"album": "Audio Reels",

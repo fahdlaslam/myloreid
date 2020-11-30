@@ -105,7 +105,11 @@ body {
 .navbar {
   font-family: 'Roboto Condensed', sans-serif;
 }
-
+.banner-email {
+  margin-top:  auto;
+  margin-bottom:  auto;
+  margin-right: 1rem;
+}
 .banner-email a {
   color:  white;
   font-family: 'Roboto Condensed', sans-serif;
@@ -491,7 +495,8 @@ div#amplitude-player {
 div#amplitude-left {
   padding: 0px;
   border-right: 1px solid #CFD8DC;
-  width: 50%;
+  /*width: 50%;*/
+  width: 55%;
   display: flex;
   flex-direction: column; }
   div#amplitude-left img {
