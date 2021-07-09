@@ -60,34 +60,37 @@ Amplitude.init({
 	continue_next: false,
 	"songs": [
 		{
-			"name": "Video Game Reel 2020",
+			"name": "Video Game / Interactive Reel",
 			"artist": "Mylo Reid",
 			"album": "Audio Reels",
-			"url": "./audio/game2020.mp3",
+			"url": "./audio/01_interactive_2021.mp3",
+			"cover_art_url": "./img/avatar1.png"
+		},
+		{
+			"name": "Animation Reel",
+			"artist": "Mylo Reid",
+			"album": "Audio Reels",
+			"url": "./audio/02_animation_2020.mp3",
 			"cover_art_url": "./img/avatar2.jpg"
 		},
 		{
 			"name": "Commercial Reel",
 			"artist": "Mylo Reid",
 			"album": "Audio Reels",
-			"url": "./audio/commercial.mp3",
+			"url": "./audio/03_commercial_2020.mp3",
 			"cover_art_url": "./img/avatar1.png"
 		},
 		{
 			"name": "Video Game Reel",
 			"artist": "Mylo Reid",
 			"album": "Audio Reels",
-			"url": "./audio/game.mp3",
+			"url": "./audio/04_game_2020.mp3",
 			"cover_art_url": "./img/avatar2.jpg"
-		},
-		{
-			"name": "Fighting Game Reel",
-			"artist": "Mylo Reid",
-			"album": "Audio Reels",
-			"url": "./audio/cartoon.mp3",
-			"cover_art_url": "./img/avatar3.png"
 		}
 	]
 });
+
+
+
 
 Amplitude.pause();
