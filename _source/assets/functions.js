@@ -63,29 +63,22 @@ Amplitude.init({
 			"name": "Video Game / Interactive Reel",
 			"artist": "Mylo Reid",
 			"album": "Audio Reels",
-			"url": "./audio/01_interactive_2021.mp3",
+			"url": "./audio/Mylo_Reid_Video_Game_Interactive_Reel.mp3",
 			"cover_art_url": "./img/avatar1.png"
 		},
 		{
 			"name": "Animation Reel",
 			"artist": "Mylo Reid",
 			"album": "Audio Reels",
-			"url": "./audio/02_animation_2020.mp3",
+			"url": "./audio/Mylo_Reid_Animation_Reel.mp3",
 			"cover_art_url": "./img/avatar2.jpg"
 		},
 		{
 			"name": "Commercial Reel",
 			"artist": "Mylo Reid",
 			"album": "Audio Reels",
-			"url": "./audio/03_commercial_2020.mp3",
+			"url": "./audio/Mylo_Reid_Commerical_Reel.mp3",
 			"cover_art_url": "./img/avatar1.png"
-		},
-		{
-			"name": "Video Game Reel",
-			"artist": "Mylo Reid",
-			"album": "Audio Reels",
-			"url": "./audio/04_game_2020.mp3",
-			"cover_art_url": "./img/avatar2.jpg"
 		}
 	]
 });
