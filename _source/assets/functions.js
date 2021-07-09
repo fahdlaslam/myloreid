@@ -77,7 +77,7 @@ Amplitude.init({
 			"name": "Commercial Reel",
 			"artist": "Mylo Reid",
 			"album": "Audio Reels",
-			"url": "./audio/Mylo_Reid_Commerical_Reel.mp3",
+			"url": "./audio/Mylo_Reid_Commercial_Reel.mp3",
 			"cover_art_url": "./img/avatar1.png"
 		}
 	]
