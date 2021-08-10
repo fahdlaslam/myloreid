@@ -67,19 +67,20 @@ Amplitude.init({
 			"cover_art_url": "./img/avatar1.png"
 		},
 		{
-			"name": "Animation Reel",
-			"artist": "Mylo Reid",
-			"album": "Audio Reels",
-			"url": "./audio/Mylo_Reid_Animation_Reel.mp3",
-			"cover_art_url": "./img/avatar2.jpg"
-		},
-		{
 			"name": "Commercial Reel",
 			"artist": "Mylo Reid",
 			"album": "Audio Reels",
 			"url": "./audio/Mylo_Reid_Commercial_Reel.mp3",
+			"cover_art_url": "./img/avatar2.jpg"
+		},
+		{
+			"name": "Animation Reel",
+			"artist": "Mylo Reid",
+			"album": "Audio Reels",
+			"url": "./audio/Mylo_Reid_Animation_Reel.mp3",
 			"cover_art_url": "./img/avatar1.png"
 		}
+		
 	]
 });
 
